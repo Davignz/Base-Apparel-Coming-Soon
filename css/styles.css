@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  width: 60%;
+  height: 100vh;
+  background: url(/images/bg-pattern-desktop.svg) no-repeat center/cover;
+}
+
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 8rem;
+}
+
+.container .content h1 {
+  margin: 0 0 25px 0;
+  font-size: 3.5rem;
+  letter-spacing: 17px;
+}
+
+.container .content h1 span {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+.container .content p {
+  font-weight: 600;
+  color: #ce9797;
+}
+
+.container .content .inpt {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  border: 1px solid #413a3a;
+}
+
+.container .content .inpt input {
+  border-radius: 50px;
+  padding: 15px;
+  height: 100%;
+  width: 80%;
+  border: transparent;
+}
+
+.container .content .inpt input:focus {
+  outline: 0;
+}
+
+.container .hero {
+  height: 100vh;
+}
+
+.container .hero img {
+  max-width: 100%;
+}
+
+.container .logo {
+  padding: 4rem 8rem;
+  max-width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */
