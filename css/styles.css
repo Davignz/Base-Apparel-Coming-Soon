@@ -56,9 +56,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid black;
+  border: 0.3px solid #413a3a;
   border-radius: 50px;
-  border: 1px solid #413a3a;
+  color: #413a3a;
 }
 
 .container .content .inpt input {
